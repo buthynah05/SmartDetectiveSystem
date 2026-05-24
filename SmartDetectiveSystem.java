@@ -1,5 +1,5 @@
-// Smart Detective System
 import java.io.*;
+
 public class SmartDetectiveSystem {
     static String[] clues = {
             "Unknown fingerprint on the office door",
@@ -13,6 +13,7 @@ public class SmartDetectiveSystem {
             "Khaled",
             "Laila"
     };
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int choice;
@@ -71,6 +72,7 @@ public class SmartDetectiveSystem {
         System.out.println("\n==========================================\n");
 
     }
+
     public static void showCase() {
 
         System.out.println("CASE INFORMATION");
@@ -126,6 +128,7 @@ public class SmartDetectiveSystem {
         System.out.println("================================\n");
 
     }
+
     public static void investigate(BufferedReader br) throws Exception {
         int answer;
         System.out.println("\n=========== INVESTIGATION ===========");
@@ -161,7 +164,6 @@ public class SmartDetectiveSystem {
                 System.out.println("\nInvalid Answer.");
         }
 
-    
         if (answer == 3) {
 
             System.out.println("Khaled is the main suspect!");
@@ -175,6 +177,7 @@ public class SmartDetectiveSystem {
         System.out.println("=====================================\n");
 
     }
+
     public static void fingerprintAnalysis() {
         System.out.println("\n======= FINGERPRINT ANALYSIS =======");
         int fingerprintDifference = -25;
@@ -198,6 +201,7 @@ public class SmartDetectiveSystem {
         }
         System.out.println("====================================\n");
     }
+
     public static void finalResult(int score) {
 
         System.out.println("\n=========== FINAL RESULT ===========");
