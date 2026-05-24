@@ -16,7 +16,8 @@ public class SmartDetectiveSystem {
             "Laila",
             "Buthynah",
             "Emam",
-            "Maryam"
+            "Maryam",
+            "Juha"
     };
 
     public static void main(String[] args) throws Exception {
