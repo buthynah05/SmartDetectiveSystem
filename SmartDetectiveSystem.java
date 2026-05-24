@@ -5,7 +5,8 @@ public class SmartDetectiveSystem {
             "Unknown fingerprint on the office door",
             "Security camera stopped at 9 PM",
             "Threat message found on the desk",
-            "Footprints near the window"
+            "Footprints near the window",
+            "new clues"
     };
     static String[] suspects = {
             "Ahmed",
